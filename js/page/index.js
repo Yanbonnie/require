@@ -1,6 +1,6 @@
 
 require(["../config"], function(){
-	require(['jquery','moduPage','moduB','./js/page/test.js','./js/lib/jquery.pagination.js'],function($,myPage,b,test){	
+	require(['jquery','moduPage','moduB','./js/page/test.js','./js/lib/jquery.pagination.js','./js/lib/cj.js'],function($,myPage,b,test){	
 		
 		$(function(){
 			$('#btn2').on('click',function(){
