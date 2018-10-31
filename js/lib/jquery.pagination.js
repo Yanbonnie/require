@@ -1,8 +1,5 @@
 
 ;(function (factory) {
-	console.log(typeof module)
-	console.log(module.exports)
-
     if (typeof define === "function" && (define.amd || define.cmd)) { //&& !jQuery
         // AMD或CMD
 		define([ "jquery" ],factory);
@@ -18,7 +15,8 @@
             }
             factory(jQuery);
             return jQuery;
-        };
+		};
+		
     } else {
         //Browser globals
         factory(jQuery);
